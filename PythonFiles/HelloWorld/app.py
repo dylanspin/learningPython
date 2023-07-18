@@ -10,11 +10,19 @@
 # converting to a bool use bool(variable)
 # print('string' in variable) # returns if the variable contains the string
 
+# variable.capitalize() #makes the first leter capitlized
+# variable.upper() #makes the full string upper case
+
+# .isalpha() #checks if is char
+
 
 # printing notes
 # If end="" is in print it doesnt go to next line 
 # print("---------", end = " ")  
 
+
+# To get the inputs from the console use
+# name = input("What is your name? ")
 
 
 # && is and in python
