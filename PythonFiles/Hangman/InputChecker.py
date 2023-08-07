@@ -5,8 +5,12 @@
 
 
 class checkInput:
+    
+    #checks the input from the user
     def checkLast(givenInput):
-        if(givenInput[0].isalpha()):
+        if(len(givenInput) <= 0): # If the input is empty 
+            print("No input given")
+        if(not givenInput[0].isalpha()): # If the input is a char
             firstChar = givenInput[0].upper()
             print(firstChar)
         

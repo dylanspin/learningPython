@@ -12,8 +12,15 @@
 
 # variable.capitalize() #makes the first leter capitlized
 # variable.upper() #makes the full string upper case
+# variable.lower() #makes the full string lower case 
+# variable.isalpha() #checks if the variable is alphabeticle characters (also returns false if there is a space in the string)
+# variable.isdigit() #checks if the variable is a number
+# variable.count() #Counts how many chars there are in the string
+# variable.replace("e","o") replaces all e chars with o chars
 
-# .isalpha() #checks if is char
+
+# print(type(variable)) # gives the type of the variable in type()
+# print(name.find("a")) # gives the index of the char in the string variable name
 
 
 # printing notes
@@ -25,7 +32,7 @@
 # name = input("What is your name? ")
 
 
-# && is and in python
+
 # if - elif - else:
 # python doesnt use {} but uses indentation like:
 # if variable > 20: 
@@ -33,6 +40,8 @@
 #   print("another something")
 #elif variable > 10:
 
+# if(not givenInput[0].isalpha()): # not is used like (!) is in C#
+# if(condition1 and condition2): and is used like (&&) is in C#
 
 # arrays in python:
 # cars = ["Ford", "Volvo", "BMW"] 
@@ -57,6 +66,12 @@
 # random num in python:
 # import random
 # random.randint(0,9)
+
+
+
+
+# code confentions:
+# for words like birth year write the variable as birth_year 
 
 
 # possible ideas to make for learning : 
